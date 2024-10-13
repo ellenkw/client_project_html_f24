@@ -52,6 +52,10 @@ ul{
   list-style: circle;
 }
 
+:focus {
+  border: 2px solid #ff2d2d;
+}
+
 /* Default Settings */
 
 .skip a{
@@ -61,6 +65,8 @@ ul{
 
 .skip a:focus {
     position: absolute;
+    background-color: #ffffff;
+    color: #000000;
     top: 20px;
     border: 2px solid #ff2d2d;
 }
