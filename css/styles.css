@@ -56,6 +56,10 @@ ul{
   border: 2px solid #ff2d2d;
 }
 
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
 /* Default Settings */
 
 .skip a{
