@@ -45,7 +45,6 @@ li {
 }
 
 
-
 ul{
   text-align: left;
   padding-left: 20px;
@@ -118,9 +117,28 @@ nav ul li {
 }
 
 nav ul li:hover{
-  background-color: #D86018;
+  background-color: #A5A508;
 }
 
+.home nav ul li:nth-child(1){
+  font-weight: 800;
+  border-bottom: 5px solid #00274C;
+}
+
+.advising nav ul li:nth-child(2){
+  font-weight: 800;
+  border-bottom: 5px solid #00274C;
+}
+
+.tutoring nav ul li:nth-child(3){
+  font-weight: 800;
+  border-bottom: 5px solid #00274C;
+}
+
+.study_space nav ul li:nth-child(4){
+  font-weight: 800;
+  border-bottom: 5px solid #00274C;
+}
 /* Header */
 
 .content {
