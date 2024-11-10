@@ -275,47 +275,6 @@ h3 {
 
 
 @media screen and (min-width:800px) {
-  /* font size */
-  body {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18pt;
-  }
-
-  h1 {
-    color: white;
-    font-weight: 800;
-    font-size: 45pt;
-    grid-column: 2 / 5;
-    text-align: center;
-    align-self: center;
-  }
-
-  h2 {
-    color: #ffffff;
-    font-size: 32pt;
-    text-align: center;
-    padding: 20px 0 20px 0;
-    font-weight: 800;
-    background-color: #00274C;
-    margin: 20px 0;
-  }
-
-  h3{
-    font-size: 28pt;
-    font-weight: 700;
-    padding-bottom: 20px;
-
-  }
-
-  p {
-    color: #000000;
-    font-size: 18pt;
-    text-align: left;
-    font-weight: 400;
-  }
 
   /* layout */
   body {
