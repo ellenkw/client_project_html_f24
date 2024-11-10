@@ -265,12 +265,15 @@ h3 {
 }
 
 .calendar-container {
-  width: 80%;
-  max-width: 850px;
-  margin: 20px;
+  width: 85%;
+  max-width: 800px;
+  margin: 20px auto;
   border-radius: 8px;
-  overflow: scroll;
-  justify-self: center;
+  overflow: auto;
+}
+
+.specifics {
+  overflow: auto;
 }
 
 
