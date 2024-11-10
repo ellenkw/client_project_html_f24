@@ -247,5 +247,100 @@ footer {
 footer p {
   color: #ffffff;
 }
+
+h3 {
+  padding-top: 50px;
+}
+
+.error .content{
+  border-bottom: 0px;
+}
+
+.space_list ul {
+  padding-left: 20px;
+}
+
+.life ul {
+  padding-left: 20px;
+}
 @media screen and (min-width:800px) {
+  body {
+    display: grid;
+    grid-template-columns: 25% 75%;
+  }
+  header {
+    grid-column: 1 / 2;
+    width: 30%;
+    background-color: #FFCB05;
+    position: fixed;
+    height: 100%;
+  }
+  #site_name {
+    grid-template-columns: 100%;
+  }
+
+  h1 {
+    grid-column: 1 / 2;
+    padding-top: 30px;
+  }
+  .content {
+    width: 93.2%;
+    justify-self: end;
+  }
+  /* nav style */
+  nav ul {
+    display: block;
+
+  }
+  .home nav ul li:nth-child(1){
+    font-weight: 800;
+    border-right: 5px solid #00274C;
+    border-bottom: 0px;
+  }
+  .advising nav ul li:nth-child(2){
+    font-weight: 800;
+    border-right: 5px solid #00274C;
+    border-bottom: 0px;
+  }
+  .tutoring nav ul li:nth-child(3){
+    font-weight: 800;
+    border-right: 5px solid #00274C;
+    border-bottom: 0px;
+  }
+  .study_space nav ul li:nth-child(4){
+    font-weight: 800;
+    border-right: 5px solid #00274C;
+    border-bottom: 0px;
+  }
+  ul {
+    padding-left: 0px;
+  }
+  /* study space layout adjustment */
+  .space_list {
+    width: 93.2%;
+    justify-self: end;
+  }
+
+  footer {
+    grid-column: 2 / 3;
+    width: 93.2%;
+    justify-self: end;
+  }
+  .skip a{
+    position: absolute;
+    top: -40px;
+}
+
+  .skip a:focus {
+    position: absolute;
+    background-color: #ffffff;
+    color: #000000;
+    top: 20px;
+    left: 30%;
+    border: 2px solid #ff2d2d;
+  } 
+
+  .tutor_list ul {
+    padding-left: 20px;
+  }
 }
